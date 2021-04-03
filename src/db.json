@@ -1,0 +1,79 @@
+
+{
+    "products": [
+       {
+    "_id": "img1",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img1",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img2",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img2",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img3",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img4",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img5",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img6",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img7",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img8",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+},
+{
+    "_id": "img9",
+    "title:": "The rolex oyster",
+    "image": "/src/image/img3",
+    "discription": "the rolex oystar steal just for men",
+    "availableSizes": ["X", "XL"],
+    "price": 39.9
+}
+
+    ]
+}
+ 
