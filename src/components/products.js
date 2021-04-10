@@ -1,27 +1,21 @@
 import React, { Component } from 'react';
-import Format from "./utility"
+import Format from './utility';
 export default class Products extends Component {
 	render() {
 		return (
 			<div>
 				<ul className="products">
-					{this.props.products.map(items => (
-					<li key={items._id}>
+					{this.props.products.map((items) => (
+						<li key={items._id}>
 							<div className="product">
-								<a href={"#" + items._id}>
-									<img src={items.image} alt={items.title}/>
-									<p>
-										{items.title}
-									</p>
+								<a href={'#' + items._id}>
+									<img src={items.image} alt={items.title} />
+									<p>{items.title}</p>
 								</a>
-									<div className="product-price">
-                                       <div>
-										   {Format(items.price)}
-									   </div>
-									   <button className="btn primary">
-										   Add to cart
-									   </button>
-									</div>
+								<div className="product-price">
+									<div>{Format(items.price)}</div>
+									<button onClick={() => this.props.addToCart(items)} className="btn primary">Add to cart</button>
+								</div>
 							</div>
 						</li>
 					))}
