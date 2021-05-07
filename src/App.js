@@ -10,8 +10,9 @@ import './App.css';
 class App extends React.Component {
 	state = {
 		products: data.products,
-		cartItem: localStorage.getItem('cartItem') ? 
-		JSON.parse(localStorage.getItem('cartItem')) : [],
+		cartItem:
+			localStorage.getItem('cartItem') ? JSON.parse(localStorage.getItem('cartItem')) :
+			[],
 		size: '',
 		sort: ''
 	};
@@ -67,9 +68,9 @@ class App extends React.Component {
 	};
 
 	checkOutOrder = (order) => {
-        alert(`Need to save order for ${order.name}`)
-		console.log(order)
-	}
+		alert(`Need to save order for ${order.name}`);
+		console.log(order);
+	};
 	render() {
 		console.log(this.state.cartItem);
 		return (
@@ -90,10 +91,11 @@ class App extends React.Component {
 							<Products products={this.state.products} addToCart={this.addToCart} />
 						</div>
 						<div className="cartBar">
-							<Cart 
-							cartItem={this.state.cartItem} 
-							removeFromCart={this.removeFromCart}
-							checkOutOrder={this.checkOutOrder} />
+							<Cart
+								cartItem={this.state.cartItem}
+								removeFromCart={this.removeFromCart}
+								checkOutOrder={this.checkOutOrder}
+							/>
 						</div>
 					</div>
 				</main>

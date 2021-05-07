@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Fade} from 'react-awesome-reveal'
 import Formate from './utility';
 
 export default class Cart extends Component {
@@ -35,6 +36,7 @@ export default class Cart extends Component {
 						<div className="cart cart-header">you have {cartItem.length} in your cart</div>}
 				</div>
 				<div className="cart">
+					<Fade direction="left" cascade="true">
 					<ul className="cart-items">
 						{cartItem.map((item) => (
 							<li key={item._id}>
@@ -53,6 +55,7 @@ export default class Cart extends Component {
 							</li>
 						))}
 					</ul>
+					</Fade>
 				</div>
 
 				{cartItem.length !== 0 && (
@@ -66,6 +69,7 @@ export default class Cart extends Component {
 							</div>
 						</div>
 						{this.state.showCheckOut && (
+								<Fade direction="right" cascade="true">
 							<div className="cart">
 								<form onSubmit={this.checkOutOrder}>
 									<ul className="form-container">
@@ -101,6 +105,7 @@ export default class Cart extends Component {
 									</ul>
 								</form>
 							</div>
+								</Fade>
 						)}
 					</div>
 				)}
