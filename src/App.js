@@ -11,8 +11,7 @@ class App extends React.Component {
 	state = {
 		products: data.products,
 		cartItem:
-			localStorage.getItem('cartItem') ? JSON.parse(localStorage.getItem('cartItem')) :
-			[],
+			localStorage.getItem('cartItem') ? JSON.parse(localStorage.getItem('cartItem')) : [],
 		size: '',
 		sort: ''
 	};
@@ -76,7 +75,7 @@ class App extends React.Component {
 		return (
 			<div className="grid-container">
 				<header>
-					<a href="http://$">Nugget shopping chart</a>
+					<a href="http://$">Nugget Luxury chart</a>
 				</header>
 				<main>
 					<div className="content">

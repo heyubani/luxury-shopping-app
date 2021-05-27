@@ -32,7 +32,7 @@ export default class Products extends Component {
 										<p>{Items.title}</p>
 									</a>
 									<div className="product-price">
-										<div>{Format(parseFloat(Items.price))}</div>
+										<div>{Format(Items.price)}</div>
 										<button onClick={() => this.props.addToCart(Items)} className="btn primary">
 											Add to cart
 										</button>
@@ -56,7 +56,7 @@ export default class Products extends Component {
 									</p>
 									<p>{Items.discription}</p>
 									<p>
-										Available Sizes: {''}
+										Available : {''}
 										{Items.availableSizes.map((x) => (
 											<span>
 												{' '}

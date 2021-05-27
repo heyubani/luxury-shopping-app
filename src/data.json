@@ -3,66 +3,66 @@
 		{
 			"_id": "img1",
 			"image": "/image/img1.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
-			"price": 33260000
+			"title": "A 5-bedroom mansion",
+			"discription": "A 5-bedroom mansion boasts formal living and dining rooms, home office, and gourmet kitchen with a swimming pool – every attribute of a luxury dwelling. Tipping at $23.2 million the property has an interesting eclectic design that looks different from the typical modern architecture, which helps it stand out.",
+			"availableSizes": [ "duplex" ],
+			"price": 23260000
 		},
 		{
 			"_id": "img2",
 			"image": "./image/img3.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
+			"title": "Rectangular shape like masion",
+			"discription": "The 8,374-square-foot (778 sq m) home has a rectangular shape so common for modern houses. Resting on two parallel walls it seems to be balancing on one leg thanks to numerous glass inclusions equipped with wooden shutters",
+			"availableSizes": [ "glass","duplex" ],
 			"price": 6260000
 		},
 		{
 			"_id": "img3",
 			"image": "/image/img2.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
+			"title": "Square footage mansion",
+			"discription": "They don’t just have impressive square footage but also all the amenities of a hotel, casino, and the best modern house you can think of. For instance, this luxurious mansion that comes with a whopping $150 million price tag has 20 full baths, spa heaven, theater complex, wine room, and a 5,300-square-foot (492 sq. m.) master suite with a private heated patio.",
+			"availableSizes": [ "glass","duplex" ],
 			"price": 3260000
 		},
 		{
 			"_id": "img4",
 			"image": "/image/img4.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
-			"price": 3260000
+			"title": "Sea views mansion",
+			"discription": "Exceptional 4  bedroom South facing waterfront villa with pool, nestling in nearly an acre of beautiful landscaped gardens while enjoying breathtaking sea views from its idyllic location near Saint-Tropez. An outstanding opportunity to purchase this wonderful property with small intimate beach directly in front of the house. The 350m2 includes a gorgeous bright and spacious living and dining area, fully fitted kitchen and 8 en suite bedrooms.",
+			"availableSizes": [ "bungalow" ],
+			"price": 5260000
 		},
 		{
 			"_id": "img5",
 			"image": "/image/img5.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
+			"title": "Modern traditional mansion",
+			"discription": "A modern mansion that masterfully combines the old with the new. Heavily influenced by the traditional style of a perfect suburban house it includes golden glass and loft spaces along with many other modern elements. \nThere is a waterless landscape and an old ranch-style fence that surrounds the property land. A perfect mix of modernism and tradition lends this house both luxury and cosiness.",
+			"availableSizes": [ "bungalow" ],
 			"price": 2060000
 		},
 		{
 			"_id": "img6",
 			"image": "/image/img6.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
-			"price": 1260000
+			"title": "Complex structure mansion",
+			"discription": "A $36 million mansion. It might look just like “any” other modern house at first glance, but it’s far from it. The complex structure features a wrap around water feature and an infinity pool. A three-level cascading garden, multiple outdoor lounge areas, and truly luxe-style inteirors make it worth every penny.",
+			"availableSizes": [ "duplex" ],
+			"price": 34000000
 		},
 		{
 			"_id": "img7",
 			"image": "/image/img7.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
+			"title": "Mega mansions",
+			"discription": "Mega mansions are still usually built in a more impressive French style, the 21,000-square-foot (1950 sq m) building comes with a two-storey living room, four two-level children’s bedrooms, an indoor swimming pool with a slide and a spacious green courtyard. \n The interiors are furnished with luxurious materials and furnishings that create different atmosphere in each room.",
+			"availableSizes": [ "triplex" ],
 			"price": 30260000
 		},
 		{
 			"_id": "img8",
 			"image": "/image/img8.jpg",
-			"title": "2020 Bugatti Chiron Sport 110 ANS",
-			"discription": "The « 110 ans Bugatti » is based on the more extreme Chiron Sport, which was presented at the Geneva Motor Show 2018. It will also be equipped with the exquisite Sky View Roof, a roof with two glass panels that will allow the happy occupants more headroom, light and visibility. DISPLAY The body and front of the car are made of carbon. In addition, the car is painted in matte « Steel Blue », blue brake calipers, matte black for rims and exhaust system as well as many French flags.",
-			"availableSizes": [ "X","XL" ],
-			"price": 13260000
+			"title": "Glass modern mansion",
+			"discription": "This glass modern mansion seems like a relatively modest modern home. At a price of ‘just’ $6.3 million there has to be more to it than an impressive exterior, right? \n Lying between two ski areas in Utah’s Cottonwood Canyon the modern chalet features 5 bedrooms, 6 bathrooms and (predictably) 3 fireplaces. If that’s not enough for you, there is also a breakfast bar, a manager’s apartment, a hot tub, and a garage.",
+			"availableSizes": [ "glass" ],
+			"price": 6326000
 		}
 	]
 }
