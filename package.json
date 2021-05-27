@@ -1,5 +1,5 @@
 {
-  "name": "watch-shopping-app",
+  "name": "luxury-shopping-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.6",
     "mongoose": "^5.12.4",
+    "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-awesome-reveal": "^3.7.1",
     "react-dom": "^17.0.2",
@@ -19,6 +20,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "server": "nodemon server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "_id": "luxury-shopping-app@0.1.0"
 }
