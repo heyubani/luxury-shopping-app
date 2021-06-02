@@ -3,7 +3,9 @@ import data from './data.json';
 import Products from './components/products';
 import Filter from './components/filter';
 import Cart from './components/Cart';
-
+import store from "./store";
+import { Provider } from 'react-redux';
+ 
 //css component
 import './App.css';
 
@@ -68,14 +70,13 @@ class App extends React.Component {
 
 	checkOutOrder = (order) => {
 		alert(`Need to save order for ${order.name}`);
-		console.log(order);
 	};
 	render() {
-		console.log(this.state.cartItem);
 		return (
+			<Provider store={store}>
 			<div className="grid-container">
 				<header>
-					<a href="http://$">Nugget Luxury chart</a>
+					<a className="header_link" href="http://$">Nugget Luxury chart</a>
 				</header>
 				<main>
 					<div className="content">
@@ -100,6 +101,7 @@ class App extends React.Component {
 				</main>
 				<footer>All right reserved.</footer>
 			</div>
+			</Provider>
 		);
 	}
 }
