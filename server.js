@@ -2,11 +2,11 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const shortid = require("shortid")
-
+const cors = require('cors')
 const app = express();
 app.use(bodyParser.json())
 
-mongoose.connect("mongodb://localhost/watch-shopping-cart-db",{
+mongoose.connect("mongodb://localhost/luxury-shopping-cart-db",{
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
@@ -22,7 +22,7 @@ const Product = mongoose.model("products",
      availableSizes: [String],
  })
  );
-
+app.use(cors())
 app.get("/api/products", async (req, res) => {
     const products = await Product.find({});
     res.send(products);

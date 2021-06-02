@@ -2,13 +2,19 @@ import React, { Component } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { Zoom } from 'react-awesome-reveal';
 import Modal from 'react-modal';
+import { connect } from 'react-redux';
+import { fetchProducts } from '../actions/productionActions';
+
 import Format from './utility';
 
-export default class Products extends Component {
+class Products extends Component {
 	state = {
-		items: false
+		items: null
 	};
 
+	componentDidMount(){
+		this.props.fetchProducts()
+	}
 	openModal = (Items) => {
 		this.setState({ Items });
 	};
@@ -19,16 +25,19 @@ export default class Products extends Component {
 
 	render() {
 		const { Items } = this.state;
-
 		return (
 			<div>
 				<Fade direction="down" cascade="true">
-					<ul className="products">
+					{
+						!this.props.products ? (
+							<div>Loading...</div>
+						) : (
+							<ul className="products">
 						{this.props.products.map((Items) => (
 							<li key={Items._id}>
 								<div className="product">
 									<a href={'#' + Items._id} onClick={() => this.openModal(Items)}>
-										<img src={Items.image} alt={Items.title} width="300" height="350" />
+										<img src={Items.image} alt={Items.title} width="300" height="300" />
 										<p>{Items.title}</p>
 									</a>
 									<div className="product-price">
@@ -41,6 +50,9 @@ export default class Products extends Component {
 							</li>
 						))}
 					</ul>
+						)
+					}
+					
 				</Fade>
 				{Items && (
 					<Modal isOpen={true} onRequestClose={this.closeModal}>
@@ -87,3 +99,8 @@ export default class Products extends Component {
 		);
 	}
 }
+
+
+export default connect((state)=>({products: state.products.items}),{
+	fetchProducts,
+})(Products)

@@ -27,7 +27,7 @@
 		{
 			"_id": "img4",
 			"image": "/image/img4.jpg",
-			"title": "Sea views mansion",
+			"title": "Sea view mansion",
 			"discription": "Exceptional 4  bedroom South facing waterfront villa with pool, nestling in nearly an acre of beautiful landscaped gardens while enjoying breathtaking sea views from its idyllic location near Saint-Tropez. An outstanding opportunity to purchase this wonderful property with small intimate beach directly in front of the house. The 350m2 includes a gorgeous bright and spacious living and dining area, fully fitted kitchen and 8 en suite bedrooms.",
 			"availableSizes": [ "bungalow" ],
 			"price": 5260000
@@ -44,7 +44,7 @@
 			"_id": "img6",
 			"image": "/image/img6.jpg",
 			"title": "Complex structure mansion",
-			"discription": "A $36 million mansion. It might look just like “any” other modern house at first glance, but it’s far from it. The complex structure features a wrap around water feature and an infinity pool. A three-level cascading garden, multiple outdoor lounge areas, and truly luxe-style inteirors make it worth every penny.",
+			"discription": "A $34 million mansion. It might look just like “any” other modern house at first glance, but it’s far from it. The complex structure features a wrap around water feature and an infinity pool. A three-level cascading garden, multiple outdoor lounge areas, and truly luxe-style inteirors make it worth every penny.",
 			"availableSizes": [ "duplex" ],
 			"price": 34000000
 		},
